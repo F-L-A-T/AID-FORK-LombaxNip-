@@ -165,10 +165,13 @@ Key=Explorer
 
 Faction=to verify
 
-(WIP)```
+WIP
+
+```
 
 ## 4]Compatibility
 
-Prose and seems to work with Neanderthal
+```Prose and seems to work with Neanderthal
 
 (WIP/to verify)
+```
