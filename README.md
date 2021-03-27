@@ -6,43 +6,48 @@ A fork of mimi Cat&lt;nip> AID
 [<LombaxNip>]
 Made by F L A T
 
-It's a fork of Cat<nip>, most of the operators and such are similar
+A fork of mimi Cat&lt;nip> AID
 
-Example:
+**see the raw for full information**
 
-Key:Kuruptco
+<h2 align="center">[&lt;LombaxNip&gt;]</h2>
 
+<h3 align="center">Made by F L A T</h3>
+
+<p align="center">It's a fork of CAT&lt;nip&gt;, most of the operators and such are similar</p>
+
+### Example:
+**Key:** Kuruptco
+
+**Entry:**
+```
 [ <Kuruptco=birdfolk biped bird> ]
-
-[ <Kuruptco description=a tall humanoid bird, you can see them flying in the sky & wandering the mountains,they are considered as good swordfighter but having a very bad agility> ]
-
-[ <Kuruptco feathers color=blue/red/yellow> ]
-
+[ &lt;Kuruptco description=a tall humanoid bird, you can see them flying in the sky & wandering the mountains,they are considered as good swordfighter but having a very bad agility&gt; ]
+[ &lt;Kuruptco feathers color=blue/red/yellow> ]
 [ <Kuruptco=tall & slender> ]
+[ &lt;Kuruptco clothing=none&gt; ]
+```
 
-[ <Kuruptco clothing=none> ]
+## 1] Operators
 
-1]Operators
+* `[]` Line Encapsulation (to ensure stability and lesser leaking)
+* `&lt;` start of a line
+* `&gt;` end of a line
+* `=` is/are/equal (basically Catnip `â‰¡`)
+* `/` or
+* `&` and
+* `&&` stronger and (never tested)
+* `:` strong correlation between 2 keys in two different entry (in test/to verify)
 
-[] =Line Encapsulation (to ensure stability and lesser leaking)
-< =start of a line
-> =end of a line
-"=" = is/are/equal (basically Catnip "=")
-"/" = or
-"&" = and
-"&&" stronger and (never tested)
-" : " strong correlation between 2 keys in two different entry (in test/to verify)
-For example
+* WI 1=
+* Key:Key1 
+* Entry=Key1:Key2
 
-WI 1=
-Key:Key1 
-Entry=Key1:Key2
+* WI 2=
 
-WI 2=
-
-Key=Key2
-Key=Key2:Key1 
-
+* Key=Key2
+* Key=Key2:Key1 
+```
 "," = same as a normal ,
 
 "  " = space
@@ -56,26 +61,26 @@ Example: <Key=i love keys>
 Prose can be used after a =
 
 Like <Key=i love keys, they are so beautiful>
+```
 
+## 2]Limitation:
 
-2]Limitation:
+* 1)30 token at least (to verify)
 
-1)30 token at least (to verify)
+* 2)Boring word or Token can make the bot repeat the full description, Instead of AI generated
 
-2)Boring word or Token can make the bot repeat the full description, Instead of AI generated
-
-For example:
+```For example:
 
 <Key description=He is a big bird who like flying....etc etc>
 
 AI will give="He is a big bird who like flying....etc etc"
 
 Instead of:
-"Johnny is a fat bird, despise it's fatness he like to fly"
+"Johnny is a fat bird, despise it's fatness he like to fly"```
 
-3)it seems that, if you do something like that
+* 3)it seems that, if you do something like that
 
-[ <Key advantages=easy to transport> ]
+```[ <Key advantages=easy to transport> ]
 
 The AI can, write it like this:
 
@@ -83,11 +88,11 @@ The AI can, write it like this:
 
 Easy to transport in a pocket.....etc etc"
 
-Other limitation may exist
+Other limitation may exist```
 
-3] General use
+## 3] General use
 
-Can be used for quick description or for quick writing of a WI
+```Can be used for quick description or for quick writing of a WI
 
 Items=work if did well
 
@@ -160,10 +165,10 @@ Key=Explorer
 
 Faction=to verify
 
-(WIP)
+(WIP)```
 
-4]Compatibility
+## 4]Compatibility
 
-Prose and seems to work with Neanderthal
+```Prose and seems to work with Neanderthal
 
-(WIP/to verify)
+(WIP/to verify)```
