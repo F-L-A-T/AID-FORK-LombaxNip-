@@ -69,26 +69,26 @@ Like <Key=i love keys, they are so beautiful>
 
 * 2)Boring word or Token can make the bot repeat the full description, Instead of AI generated
 
-```For example:
+For example:
 
-<Key description=He is a big bird who like flying....etc etc>
+&lt;Key description=He is a big bird who like flying....etc etc&gt;
 
 AI will give="He is a big bird who like flying....etc etc"
 
 Instead of:
-"Johnny is a fat bird, despise it's fatness he like to fly"```
+"Johnny is a fat bird, despise it's fatness he like to fly"
 
 * 3)it seems that, if you do something like that
 
-```[ <Key advantages=easy to transport> ]
+[ &lt;Key advantages=easy to transport&gt; ]
 
 The AI can, write it like this:
 
-"KEY ADVANTAGES:
+KEY ADVANTAGES:
 
 Easy to transport in a pocket.....etc etc"
 
-Other limitation may exist```
+Other limitation may exist
 
 ## 3] General use
 
@@ -169,6 +169,6 @@ Faction=to verify
 
 ## 4]Compatibility
 
-```Prose and seems to work with Neanderthal
+Prose and seems to work with Neanderthal
 
-(WIP/to verify)```
+(WIP/to verify)
